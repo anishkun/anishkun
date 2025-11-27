@@ -7,6 +7,9 @@
 Welcome to the edge of innovation.
 I’m a Machine Learning Engineer & Full-Stack Developer — a coder who crossed over from a mundane universe to this digital isekai…
 where data has souls and neural nets awaken like summoned familiars.
+<div align="center">
+  <img src="https://media1.tenor.com/m/8wBCqZH60U8AAAAC/computer-cat.gif" alt="Anime Tech Cat" width="300"/>
+</div>
 
 I turn:
 
