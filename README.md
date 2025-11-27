@@ -27,7 +27,7 @@ If tech is magic, then models are my spellbooks.
 
 
 ## Rapidfire  
-<table><tr><td valign="top" width="50%">
+<table><tr><td valign="top" width="100%">
 
 
 
@@ -49,7 +49,8 @@ If tech is magic, then models are my spellbooks.
 ☁️ Dev Tools — Git, Colab, VS Code rituals  
 
 
-</td><td valign="top" width="50%">
+</td><td valign="top" width="100%">
+
 
 
 
@@ -143,5 +144,4 @@ Because every outcast ends up the hero of their sag
 
 <br />
 
-----
-<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
+
