@@ -1,150 +1,34 @@
-## 🌌Yo! I’m Anish Kunda — The ML Engineer from the Parallel Circuit Realm  
-  
+# 👋 Hi, I'm Anish Kunda
 
+**Software Development Engineer | Backend Developer**
 
+I specialize in building reliable, scalable, and high-performance backend systems using Java and Spring Boot.  
+My work focuses on clean architecture, efficient data handling, concurrency, low-level file I/O, and designing services that are easy to maintain and scale.
 
-### Glad to see you here!  
-Welcome to the edge of innovation.
-I’m a Machine Learning Engineer & Full-Stack Developer — a coder who crossed over from a mundane universe to this digital isekai…
-where data has souls and neural nets awaken like summoned familiars.
-<div align="center">
-  <img src="https://media1.tenor.com/m/8wBCqZH60U8AAAAC/computer-cat.gif" alt="Anime Tech Cat" width="300"/>
-</div>
+I enjoy solving complex engineering problems, optimizing performance, and building systems that behave predictably under load.
 
-I turn:
+---
 
-🧩 Mathematical riddles → Learning Systems
+## ⚙️ Backend Engineering
 
-👁️ Pixels → Vision
+- **Java Backend Development** — Spring Boot, REST APIs  
+- **Low-Level Engineering** — Java NIO, file I/O, buffering, performance tuning  
+- **System Design** — modular architecture, reliability, scalability  
+- **Concurrency** — thread models, synchronization, safe parallel execution  
+- **Development Workflow** — Docker, Git, IntelliJ IDEA  
+- **Software Quality** — testing, debugging, clean code practices  
 
-📜 Text → Understanding
+---
 
-♟️ Games → AI strategy & adaptation
+## 🧰 Technologies & Tools
 
-🧠 Research → Real-world solutions
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,spring,docker,linux,git,postgres,mysql,redis,idea" height="40"/>
+</p>
 
-If tech is magic, then models are my spellbooks.  
-  
+---
 
-<br/>  
-
-
-## Rapidfire  
-<table><tr><td valign="top" width="100%">
-
-
-
-### Skills from My Adventurer Loadout  
-🧬 Deep Learning — PyTorch, TensorFlow
-
-🖼️ Computer Vision — GANs, restoration magic
-
-🗣️ NLP — making machines actually listen
-
-🤖 Automation — RPA workflows with brains
-
-🌐 Full-Stack — FastAPI, React portals & Flask familiars
-
-📊 Data Alchemy — NumPy, Pandas, OpenCV
-
-🗄️ Databases — MySQL, SQLite runes
-
-☁️ Dev Tools — Git, Colab, VS Code rituals  
-
-
-</td><td valign="top" width="100%">
-
-
-
-
-</td></tr></table>  
-
-<br/>  
-
-
-## Languages and Tools  
-<div align="center">  
-<a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="25" /></a>  
-<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="25" /></a>  
-<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="25" /></a>  
-<a href="https://www.electronjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/electron-original.svg" alt="Electron" height="25" /></a>  
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="25" /></a>  
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="25" /></a>  
-<a href="https://www.cplusplus.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="25" /></a>  
-<a href="https://www.cprogramming.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/c-original.svg" alt="C" height="25" /></a>  
-<a href="https://aws.amazon.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/amazonwebservices-original-wordmark.svg" alt="AWS" height="25" /></a>  
-<a href="https://www.docker.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="25" /></a>  
-<a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="25" /></a>  
-<a href="https://www.php.net/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="25" /></a>  
-<a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="25" /></a>  
-<a href="https://www.mongodb.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="25" /></a>  
-<a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="25" /></a>  
-<a href="https://www.nginx.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nginx-original.svg" alt="Nginx" height="25" /></a>  
-<a href="https://expressjs.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="25" /></a>  
-<a href="https://kubernetes.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/kubernetes-icon.svg" alt="Kubernetes" height="25" /></a>  
-<a href="https://www.gnu.org/software/bash/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="25" /></a>  
-<a href="https://www.raspberrypi.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/raspberrypi.png" alt="Raspberry Pi" height="25" /></a>  
-<a href="https://www.elastic.co/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/elasticsearch.png" alt="Elastic Search" height="25" /></a>  
-<a href="https://flask.palletsprojects.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/flask.png" alt="Flask" height="25" /></a>  
-<a href="https://www.apachefriends.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/xampp.png" alt="XAMPP" height="25" /></a>  
-<a href="https://www.chartjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/logo-title.svg" alt="Chart.js" height="25" /></a>  
-<a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="25" /></a>  
-<a href="https://sass-lang.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/sass-original.svg" alt="Sass" height="25" /></a>  
-<a href="https://www.jenkins.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/jenkins-icon.svg" alt="Jenkins" height="25" /></a>  
-<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="25" /></a>  
-<a href="https://www.rabbitmq.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/rabbitmq-icon.svg" alt="RabbitMQ" height="25" /></a>  
-<a href="https://www.gatsbyjs.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gatsby.png" alt="Gatsby" height="25" /></a>  
-<a href="https://firebase.google.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/firebase.png" alt="Firebase" height="25" /></a>  
-<a href="https://www.arduino.cc/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/arduino.png" alt="Arduino" height="25" /></a>  
-<a href="https://wordpress.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/wordpress.png" alt="WordPress" height="25" /></a>  
-<a href="https://graphql.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/graphql.png" alt="GraphQL" height="25" /></a>  
-<a href="https://www.ansible.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/ansible.png" alt="Ansible" height="25" /></a>  
-<a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="25" /></a>  
-<a href="https://cloud.google.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/google_cloud-icon.svg" alt="GCP" height="25" /></a>  
-</div>  
-
-
-
-### Notable Quests  
-🏅 Hackathon Champion — VR Siddhartha AI Arena
-A chess AI with real-time engine insight.
-We didn’t just play the game —
-we taught the machine how to evolve mid-battle.
-
-📡 Seismic Vision Spell
-Deep diffusion networks that see beneath the earth’s crust
-like clairvoyant tech.
-
-🛕 Artifact Resurrection Ritual
-A GAN-powered system restoring ancient relics
-pixel by pixel, like a museum necromancer.
-
-🌲 Bioacoustic Wildlife Watcher
-Detecting unseen threats in forests
-through sound signatures of nature’s guardians.  
-  
-
-
-
-### 🌀 The Journey Continues…  
-
-If you’re searching for someone who:
-
-Engineers AI smarter than the final boss 🤖🔥
-
-Learns like a Egoist  📚⚔️
-
-Creates with curiosity and chaos ⚡
-
-…then you’ve already found him.
-
-Let’s co-op the next big idea.
-Because every outcast ends up the hero of their sag  
-  
-
-<br/>  
-
-
-<br />
-
-
+## 📫 Contact  
+📧 **Email:** anish03anish@gmail.com  
+🔗 **LinkedIn:** https://www.linkedin.com/in/anishkunda/  
+🔗 **GitHub:** https://github.com/anishkun  
