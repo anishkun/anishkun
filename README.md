@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Anish Kunda 👋</h1>
 
 <p align="center">
-  <b>Backend Engineer · Java / Spring Boot · AI Agents & MCP</b><br/>
+  <b>Backend Engineer · Full Stack · AI Agents · AI&ML Engineer</b><br/>
   Correctness-first distributed systems and agents that stay inside their guardrails.
 </p>
 
