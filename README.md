@@ -18,7 +18,7 @@
 
 I build backend systems where the hard part is **getting it right under concurrency and failure** — ledgers that can't double-spend, queues that survive crashes, event relays that never lose a message — and, more recently, **AI agents** that act through MCP servers behind a fail-closed permission layer.
 
-- 🏢 **Software Engineering Intern @ NishiTech Solutions** (Aug 2025 – Feb 2026) — Java/Spring Boot backend for a payment-processing module; wrote the JUnit + Mockito suites that took coverage to **85%** on a CI/CD pipeline.
+- 🏢 **Software Engineering Intern @ NishiTech Solutions** (Nov 2025 – Aug 2026) — Java/Spring Boot backend for a payment-processing module; wrote the JUnit + Mockito suites that took coverage to **85%** on a CI/CD pipeline.
 - 🏆 **1st place, VR Siddhartha AI Hackathon** (2025) — led a 4-person team building a Stockfish-backed evaluation pipeline with real-time model inference, out of 100+ teams.
 - 🎓 B.Tech CSE (AI & ML), Mohan Babu University — 2022 – 2026.
 
