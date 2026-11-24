@@ -16,10 +16,10 @@
 
 ### What I do
 
-I build backend systems where the hard part is **getting it right under concurrency and failure** — ledgers that can't double-spend, queues that survive crashes, event relays that never lose a message — and, more recently, **AI agents** that act through MCP servers behind a fail-closed permission layer.
+I build backend systems where the hard part is **getting it right under concurrency and failure** — ledgers that can't double-spend, queues that survive crashes, event relays with at-least-once delivery — and, more recently, **AI agents** that act through MCP servers behind a fail-closed permission layer.
 
-- 🏢 **Software Engineering Intern @ NishiTech Solutions** (Nov 2025 – Aug 2026) — Java/Spring Boot backend for a payment-processing module; wrote the JUnit + Mockito suites that took coverage to **85%** on a CI/CD pipeline.
-- 🏆 **1st place, VR Siddhartha AI Hackathon** (2025) — led a 4-person team building a Stockfish-backed evaluation pipeline with real-time model inference, out of 100+ teams.
+- 🏢 **Software Engineering Intern @ Nishi Tech Solutions** (Nov 2025 – Aug 2026) — built an AI phone-ordering agent for restaurant clients (FastAPI WebSockets, Twilio, Deepgram, ElevenLabs) with a LangGraph state machine and Gemini tool-calling; configured Flask and Django applications and built and tested their REST APIs.
+- 🏆 **1st place, AI Autonomous Hackathon 2025, VR Siddhartha** (Feb 2025) — led a 4-member team to build MindMate AI, a 3D chess platform, in 24 hours: Classic, Quantum, and Ghost modes, each with a custom-trained AI model, plus Stockfish-based analysis; out of 100+ teams.
 - 🎓 B.Tech CSE (AI & ML), Mohan Babu University — 2022 – 2026.
 
 ---
@@ -28,7 +28,7 @@ I build backend systems where the hard part is **getting it right under concurre
 
 | Project | What it proves | Stack |
 |---|---|---|
-| **[ReLife](https://github.com/anishkun/ReLife)** — self-improving personal agent | ACT-R-inspired memory in SQLite (relevance rises with use, decays over time) with a two-stage FTS5 + vector recall pipeline; deterministic "sleep" pass that decays, dedupes, and mines repeated actions into reusable workflows; opt-in LLM "dream" critic that reversibly prunes memory; a decompose → delegate → resume build orchestrator whose ledger survives session-limit resets. 80+ deterministic tests, no live model calls. | Python · Claude Agent SDK · MCP · SQLite |
+| **[ReLife](https://github.com/anishkun/ReLife)** — self-improving personal agent | ACT-R-inspired memory in SQLite (relevance rises with use, decays over time) with two-stage recall over SQLite FTS5 and optional vector search; deterministic "sleep" pass that decays, dedupes, and mines repeated actions into reusable workflows; opt-in LLM "dream" critic that reversibly prunes memory; a decompose → delegate → resume build orchestrator whose ledger survives session-limit resets. 580+ deterministic tests, no live model calls. | Python · Claude Agent SDK · MCP · SQLite |
 | **[ApexPay](https://github.com/anishkun/ApexPay)** — event-driven financial ledger | Lexicographic lock ordering + JPA `PESSIMISTIC_WRITE` to make deadlocks and double-spends impossible; Transactional Outbox + Idempotency facade inside one ACID boundary; outbox relay with publisher confirms, `FOR UPDATE SKIP LOCKED`, bounded backoff, and dual DLQs; Flyway-owned schema validated by Hibernate; Testcontainers ITs prove 24 concurrent retries → exactly one debit. ECS structured logs with correlation IDs, OpenTelemetry tracing, Spring Security. | Java 21 · Spring Boot 3 · PostgreSQL · RabbitMQ · Docker |
 | **[AI Phone Ordering System](https://github.com/anishkun/AI-Phone-Ordering-System)** — real-time voice agent | Bidirectional Twilio media streams → Deepgram STT → LangGraph state machine → ElevenLabs TTS at sub-500 ms round-trip; the LLM never touches prices or inventory — strict tool-calling against a deterministic backend produces exact POS payloads; human hand-off on frustration. | Python · FastAPI · WebSockets · LangGraph |
 | **[Persistent Disk-Backed Message Broker](https://github.com/anishkun/PersistentDiskBackedMessageBroker)** — durable FIFO queue from scratch | Append-only length-prefixed log with zero-copy `FileChannel`/`ByteBuffer` I/O, crash-safe partial-record handling, logical offsets, thread-safe enqueue/dequeue, and a bundled throughput benchmark. Zero dependencies. | Java · NIO |
@@ -38,11 +38,11 @@ I build backend systems where the hard part is **getting it right under concurre
 
 ### Open-source contributions
 
-I read other people's code as carefully as my own. Recent fixes upstream:
+I read other people's code as carefully as my own. 5 PRs merged upstream so far:
 
-- **[PennyLane](https://github.com/PennyLaneAI/pennylane/pull/10175)** — `is_commuting` wrongly treated partially-overlapping SWAP-like ops as commuting.
-- **[Weblate](https://github.com/WeblateOrg/weblate/pulls?q=is%3Apr+author%3Aanishkun)** — glossary mislabelled unflagged terms as untranslatable; outline-button icons ignored text colour.
-- **[OpenAlgo](https://github.com/marketcalls/openalgo/pulls?q=is%3Apr+author%3Aanishkun)** — merged fix normalising Upstox tick sizes from paise to rupees; plus fixes for smart-order exit reporting, position-book "Close" state, asset mtime cache invalidation, token-based Telegram command parsing, and NaN containment in rolling indicators.
+- **[Weblate](https://github.com/WeblateOrg/weblate/pulls?q=is%3Apr+author%3Aanishkun)** (3 merged) — glossary mislabelled unflagged terms as untranslatable; outline-button icons ignored text colour; the editor now remembers whether string details are expanded.
+- **[OpenAlgo](https://github.com/marketcalls/openalgo/pulls?q=is%3Apr+author%3Aanishkun)** (2 merged) — normalised Upstox tick sizes from paise to rupees; removed the Close button from positions already squared off. More fixes open for review.
+- **[PennyLane](https://github.com/PennyLaneAI/pennylane/pulls?q=is%3Apr+author%3Aanishkun)** (open for review) — gate-commutation and circuit-compilation fixes, including [`is_commuting`](https://github.com/PennyLaneAI/pennylane/pull/10175) treating partially-overlapping SWAP-like ops as commuting.
 
 → [All PRs](https://github.com/pulls?q=is%3Apr+author%3Aanishkun+-user%3Aanishkun)
 
